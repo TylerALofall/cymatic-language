@@ -1,0 +1,20 @@
+name: assign alpha value
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: a:z=1:26
+    - read: *.txt
+      run: need action
+    - store: "assign alpha value" for (second *.txt)doc
+      run: second action convert alpha value into sound value
+      read: second action and run as 3rd on sound program . 
+      
+      ((need adjustable starting point value of a and adjustable time space for and between letters))
+      -  
+      
